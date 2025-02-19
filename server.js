@@ -69,7 +69,7 @@ app.get('/*', (req, res) => {
 // Initialize Socket.IO with CORS settings
 const io = new Server(server, {
     cors: {
-        origin: ["http://localhost:3000", "https://geochain-io-fce6055b2802.herokuapp.com/"], 
+        origin: ["http://localhost:3000", "https://geochain-io-fce6055b2802.herokuapp.com/", "https://geochain-backend-00df5e12a638.herokuapp.com/"], 
         methods: ["GET", "POST"],
         credentials: true
     },
