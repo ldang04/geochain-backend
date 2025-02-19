@@ -1,0 +1,15 @@
+{
+  "name": "ccs_game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server/server.js",
+    "client": "npm start --prefix client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
