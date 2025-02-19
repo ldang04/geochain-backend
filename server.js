@@ -511,7 +511,7 @@ function validateLocation(input, gameId) {
 
 
 // const locationsCSVFilePath = "../client/build/assets/datasets/cleaned_CCS_dataset.csv";
-const locationsCSVFilePath = path.join(__dirname, '..', 'client', 'build', 'datasets', 'cleaned_CCS_dataset.csv');
+const locationsCSVFilePath = path.join(__dirname, 'datasets', 'cleaned_CCS_dataset.csv');
 
 loadLocations(locationsCSVFilePath).then(() => {
     // console.log('Locations loaded into hashmap:', locationsMap);
